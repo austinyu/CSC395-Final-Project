@@ -42,7 +42,7 @@ K Nearest Neighbours (KNN) is a non-parametric classification algorithm that has
 
 
 
-### CNN
+### RNN
 
 
 
