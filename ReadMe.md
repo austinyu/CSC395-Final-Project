@@ -2,6 +2,10 @@
 
 https://prong-mimosa-c5f.notion.site/STA395-FinalProject-3dd68dddb75e4ba9aa8a5b49b42a68e8
 
+
+
+https://docs.google.com/presentation/d/1Ii_LRTzk2vTfvIiadgSXLg9z2HJn5JTS3qQgnkdm1-4/edit?usp=sharing
+
 # Preprocessing
 
 - Top of mind 
