@@ -3,12 +3,28 @@ from typing import Any, Optional, Dict
 
 class NewsDataLoader:
     def __init__(self, predictors: Any, target: Any) -> None:
+        """
+        Initializes a NewsDataLoader instance.
+
+        Parameters:
+        - predictors (Any): The predictors for the data.
+        - target (Any): The target values for the data.
+        """
         self.predictors = predictors
         self.target = target
 
 class EvaluationDataLoader:
     def __init__(self, name_dataset: str, name_model: str,
                  target_actual: Any, target_predicted: Any) -> None:
+        """
+        Initializes an EvaluationDataLoader instance.
+
+        Parameters:
+        - name_dataset (str): The name of the dataset.
+        - name_model (str): The name of the model.
+        - target_actual (Any): The actual target values.
+        - target_predicted (Any): The predicted target values.
+        """
         self.name_dataset = name_dataset
         self.name_model = name_model
         self.target_actual = target_actual
@@ -16,13 +32,21 @@ class EvaluationDataLoader:
 
 class ScorePackage:
     def __init__(self, name_dataset: str, name_model: str, scores: Optional[Dict[str, Any]] = None) -> None:
+        """
+        Initializes a ScorePackage instance.
+
+        Parameters:
+        - name_dataset (str): The name of the dataset.
+        - name_model (str): The name of the model.
+        - scores (Optional[Dict[str, Any]]): Optional dictionary of scores. If provided, it will be used to update the package.
+        """
         self.package = dict()
         self.name_dataset = name_dataset
         self.name_model = name_model
-        
+
         if scores is None:
             return
-        
+
         self.accuracy = round(scores['test_accuracy'].mean(), 3)
         self.precision = round(scores['test_precision'].mean(), 3)
         self.recall = round(scores['test_recall'].mean(), 3)
@@ -30,6 +54,15 @@ class ScorePackage:
 
     def update_package(self, accuracy: Optional[float] = None, precision: Optional[float] = None,
                        recall: Optional[float] = None, f1: Optional[float] = None) -> None:
+        """
+        Updates the score package with the provided scores.
+
+        Parameters:
+        - accuracy (Optional[float]): The accuracy score to update.
+        - precision (Optional[float]): The precision score to update.
+        - recall (Optional[float]): The recall score to update.
+        - f1 (Optional[float]): The F1 score to update.
+        """
         if accuracy is not None:
             self.accuracy = round(accuracy, 3)
         if precision is not None:
@@ -40,6 +73,12 @@ class ScorePackage:
             self.f1 = round(f1, 3)
 
     def construct_eval(self, evaluation_loader: EvaluationDataLoader) -> None:
+        """
+        Constructs the evaluation scores based on the provided EvaluationDataLoader.
+
+        Parameters:
+        - evaluation_loader (EvaluationDataLoader): The EvaluationDataLoader instance containing actual and predicted targets.
+        """
         target_actual = evaluation_loader.target_actual
         target_predicted = evaluation_loader.target_predicted
 
