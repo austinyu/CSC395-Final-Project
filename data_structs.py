@@ -99,6 +99,18 @@ class ScorePackage:
         print(f'    - recall: {self.recall}')
         print(f'    - f1 score: {self.f1}')
         
+    def query_metrics(self, metrics) -> float:
+        if metrics == 'accuracy':
+            return self.accuracy
+        elif metrics == 'precision':
+            return self.precision
+        elif metrics == 'recall':
+            return self.recall
+        elif metrics == 'f1':
+            return self.f1
+        else:
+            return -1 # Error code
+        
 class ModelEnum:
     knn = 'knn'
     logisticRegression = 'logisticRegression'

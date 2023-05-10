@@ -1,0 +1,113 @@
+,Model,DataSet,Metrics,Value
+0,K-nearest neighbors (KNN),DS1,accuracy,0.795
+1,K-nearest neighbors (KNN),DS2,accuracy,0.763
+2,K-nearest neighbors (KNN),DS3,accuracy,0.768
+3,K-nearest neighbors (KNN),DS4,accuracy,0.77
+4,K-nearest neighbors (KNN),DS1,precision,0.993
+5,K-nearest neighbors (KNN),DS2,precision,0.998
+6,K-nearest neighbors (KNN),DS3,precision,0.995
+7,K-nearest neighbors (KNN),DS4,precision,1.0
+8,K-nearest neighbors (KNN),DS1,recall,0.671
+9,K-nearest neighbors (KNN),DS2,recall,0.64
+10,K-nearest neighbors (KNN),DS3,recall,0.651
+11,K-nearest neighbors (KNN),DS4,recall,0.646
+12,K-nearest neighbors (KNN),DS1,f1,0.795
+13,K-nearest neighbors (KNN),DS2,f1,0.762
+14,K-nearest neighbors (KNN),DS3,f1,0.766
+15,K-nearest neighbors (KNN),DS4,f1,0.769
+16,Logistic regression (LR),DS1,accuracy,0.909
+17,Logistic regression (LR),DS2,accuracy,0.895
+18,Logistic regression (LR),DS3,accuracy,0.898
+19,Logistic regression (LR),DS4,accuracy,0.891
+20,Logistic regression (LR),DS1,precision,0.966
+21,Logistic regression (LR),DS2,precision,0.979
+22,Logistic regression (LR),DS3,precision,0.977
+23,Logistic regression (LR),DS4,precision,0.979
+24,Logistic regression (LR),DS1,recall,0.839
+25,Logistic regression (LR),DS2,recall,0.811
+26,Logistic regression (LR),DS3,recall,0.821
+27,Logistic regression (LR),DS4,recall,0.804
+28,Logistic regression (LR),DS1,f1,0.908
+29,Logistic regression (LR),DS2,f1,0.894
+30,Logistic regression (LR),DS3,f1,0.898
+31,Logistic regression (LR),DS4,f1,0.89
+32,Linear SVM (LSVM),DS1,accuracy,0.913
+33,Linear SVM (LSVM),DS2,accuracy,0.893
+34,Linear SVM (LSVM),DS3,accuracy,0.897
+35,Linear SVM (LSVM),DS4,accuracy,0.889
+36,Linear SVM (LSVM),DS1,precision,0.988
+37,Linear SVM (LSVM),DS2,precision,0.99
+38,Linear SVM (LSVM),DS3,precision,0.993
+39,Linear SVM (LSVM),DS4,precision,0.995
+40,Linear SVM (LSVM),DS1,recall,0.833
+41,Linear SVM (LSVM),DS2,recall,0.802
+42,Linear SVM (LSVM),DS3,recall,0.811
+43,Linear SVM (LSVM),DS4,recall,0.793
+44,Linear SVM (LSVM),DS1,f1,0.912
+45,Linear SVM (LSVM),DS2,f1,0.893
+46,Linear SVM (LSVM),DS3,f1,0.897
+47,Linear SVM (LSVM),DS4,f1,0.889
+48,Random forest (RF),DS1,accuracy,0.916
+49,Random forest (RF),DS2,accuracy,0.888
+50,Random forest (RF),DS3,accuracy,0.899
+51,Random forest (RF),DS4,accuracy,0.888
+52,Random forest (RF),DS1,precision,0.988
+53,Random forest (RF),DS2,precision,0.971
+54,Random forest (RF),DS3,precision,0.984
+55,Random forest (RF),DS4,precision,0.981
+56,Random forest (RF),DS1,recall,0.838
+57,Random forest (RF),DS2,recall,0.804
+58,Random forest (RF),DS3,recall,0.819
+59,Random forest (RF),DS4,recall,0.798
+60,Random forest (RF),DS1,f1,0.915
+61,Random forest (RF),DS2,f1,0.887
+62,Random forest (RF),DS3,f1,0.899
+63,Random forest (RF),DS4,f1,0.888
+64,"Voting classiﬁer (LR, RF, LSVM)",DS1,accuracy,0.914
+65,"Voting classiﬁer (LR, RF, LSVM)",DS2,accuracy,0.894
+66,"Voting classiﬁer (LR, RF, LSVM)",DS3,accuracy,0.899
+67,"Voting classiﬁer (LR, RF, LSVM)",DS4,accuracy,0.888
+68,"Voting classiﬁer (LR, RF, LSVM)",DS1,precision,0.988
+69,"Voting classiﬁer (LR, RF, LSVM)",DS2,precision,0.988
+70,"Voting classiﬁer (LR, RF, LSVM)",DS3,precision,0.993
+71,"Voting classiﬁer (LR, RF, LSVM)",DS4,precision,0.993
+72,"Voting classiﬁer (LR, RF, LSVM)",DS1,recall,0.835
+73,"Voting classiﬁer (LR, RF, LSVM)",DS2,recall,0.805
+74,"Voting classiﬁer (LR, RF, LSVM)",DS3,recall,0.814
+75,"Voting classiﬁer (LR, RF, LSVM)",DS4,recall,0.792
+76,"Voting classiﬁer (LR, RF, LSVM)",DS1,f1,0.913
+77,"Voting classiﬁer (LR, RF, LSVM)",DS2,f1,0.894
+78,"Voting classiﬁer (LR, RF, LSVM)",DS3,f1,0.899
+79,"Voting classiﬁer (LR, RF, LSVM)",DS4,f1,0.888
+80,Stacked Classifier,DS1,accuracy,0.913
+81,Stacked Classifier,DS2,accuracy,0.889
+82,Stacked Classifier,DS3,accuracy,0.895
+83,Stacked Classifier,DS4,accuracy,0.891
+84,Stacked Classifier,DS1,precision,0.983
+85,Stacked Classifier,DS2,precision,0.981
+86,Stacked Classifier,DS3,precision,0.988
+87,Stacked Classifier,DS4,precision,0.99
+88,Stacked Classifier,DS1,recall,0.836
+89,Stacked Classifier,DS2,recall,0.8
+90,Stacked Classifier,DS3,recall,0.81
+91,Stacked Classifier,DS4,recall,0.798
+92,Stacked Classifier,DS1,f1,0.912
+93,Stacked Classifier,DS2,f1,0.889
+94,Stacked Classifier,DS3,f1,0.895
+95,Stacked Classifier,DS4,f1,0.891
+96,Boosting classiﬁer (AdaBoost),DS1,accuracy,0.914
+97,Boosting classiﬁer (AdaBoost),DS2,accuracy,0.891
+98,Boosting classiﬁer (AdaBoost),DS3,accuracy,0.898
+99,Boosting classiﬁer (AdaBoost),DS4,accuracy,0.888
+100,Boosting classiﬁer (AdaBoost),DS1,precision,0.993
+101,Boosting classiﬁer (AdaBoost),DS2,precision,0.993
+102,Boosting classiﬁer (AdaBoost),DS3,precision,0.998
+103,Boosting classiﬁer (AdaBoost),DS4,precision,1.0
+104,Boosting classiﬁer (AdaBoost),DS1,recall,0.832
+105,Boosting classiﬁer (AdaBoost),DS2,recall,0.798
+106,Boosting classiﬁer (AdaBoost),DS3,recall,0.81
+107,Boosting classiﬁer (AdaBoost),DS4,recall,0.789
+108,Boosting classiﬁer (AdaBoost),DS1,f1,0.913
+109,Boosting classiﬁer (AdaBoost),DS2,f1,0.891
+110,Boosting classiﬁer (AdaBoost),DS3,f1,0.898
+111,Boosting classiﬁer (AdaBoost),DS4,f1,0.888
