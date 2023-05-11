@@ -31,14 +31,18 @@ class EvaluationDataLoader:
         self.target_predicted = target_predicted
 
 class ScorePackage:
-    def __init__(self, name_dataset: str, name_model: str, scores: Optional[Dict[str, Any]] = None) -> None:
+    def __init__(self, 
+                 name_dataset: str, 
+                 name_model: str, 
+                 scores: Optional[Dict[str, Any]] = None) -> None:
         """
         Initializes a ScorePackage instance.
 
         Parameters:
         - name_dataset (str): The name of the dataset.
         - name_model (str): The name of the model.
-        - scores (Optional[Dict[str, Any]]): Optional dictionary of scores. If provided, it will be used to update the package.
+        - scores (Optional[Dict[str, Any]]): Optional dictionary of scores. 
+            If provided, it will be used to update the package.
         """
         self.package = dict()
         self.name_dataset = name_dataset

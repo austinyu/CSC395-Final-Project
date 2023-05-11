@@ -4,7 +4,7 @@
 
 # Introduction
 
-
+- Goal: Accurately classify fake news based on the titles. 
 
 # Materials and Methods
 
@@ -25,7 +25,7 @@ After performing the language detection, all the entries with at least one missi
 We implemented stemming to our dataset as it removes prefixes and suffixes from a word, and thus thereby reudces words to their root form. In our data preprocessing, Porter Stememr was employed, which reduces words like: "running" and "runs" to "run," and "runner" to "runner." By transforming words into a common base form, we are able to increase simplicity and decrease volume. Yet, due to the length of dataset and size of each entry, stemming was only performed within the title variable.
 
 
-- Samplinng 
+- Sampling 
 
 For the purpose of evaluating models rigorously, we created multiple test datasets. To do so, among the 5000 randomly chosen samples from the original dataset, we assigned an index for each of the entries; for instance, the index of the first 1000 entries was 0, and the index of the following 1000 entries was 1. Then, after indexing the data, entries with the same index were grouped. In our model, index 0 refers to the training dataset and indices 1, 2, 3, and 4 refer to testing sets 1, 2, 3, and 4 respectively. 
 
