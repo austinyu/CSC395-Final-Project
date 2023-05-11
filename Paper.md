@@ -35,10 +35,9 @@ For the purpose of evaluating models rigorously, we created multiple test datase
 
 Logistic regression is a supervised classification method that uses the Bernoulli distribution and the sigmoid function to predict the binary discrete values such as true/false and yes/no. In this work, we trained the logistic regression model with default parameters. 
 
-
 #### Linear SVM
 
-
+Linear SVM (Support Vector Machine) is a machine learning algorithm that separates data points into different classes by finding the best hyperplane (decision boundary) that maximizes the margin between the classes. It achieves this by identifying support vectors, which are the data points closest to the decision boundary. Linear SVM aims to find the optimal hyperplane that maximally separates the classes while minimizing classification errors. It maps the input data into a higher-dimensional space using a linear function and employs a margin-based loss function to optimize the placement of the decision boundary. The resulting model can be used for predicting the class of new, unseen data points based on their features.
 
 #### K-nearest neighbors
 
