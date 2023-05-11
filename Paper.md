@@ -14,10 +14,10 @@
 
 - Language Detection to remove non-English news 
 
-Our dataset included news written in language other than English. Considering the volume of the dataset and ease in the stemming, we removed all the dataset written in non-English by using language detection from langdetect. 
+Our dataset included news written in a language other than English. Considering the volume of the dataset and ease in the stemming, we removed all the datasets written in non-English by using language detection from langdetect. 
 
 - Removing entries with NA
-
+After performing the language detection, all the entries with at least one missing value were removed. 
 
 - Stemming 
 
@@ -27,6 +27,7 @@ Our dataset included news written in language other than English. Considering th
 
 #### Logistic regression
 
+Logistic regression is a supervised classification method that uses the Bernoulli distribution and the sigmoid function to predict the binary discrete values such as true/false and yes/no. In this work, we trained the logistic regression model with default parameters. 
 
 
 #### Linear SVM
