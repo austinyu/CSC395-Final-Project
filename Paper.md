@@ -17,11 +17,17 @@
 Our dataset included news written in a language other than English. Considering the volume of the dataset and ease in the stemming, we removed all the datasets written in non-English by using language detection from langdetect. 
 
 - Removing entries with NA
-After performing the language detection, all the entries with at least one missing value were removed. 
+
+After performing the language detection, all the entries with at least one missing value were removed. At this stage, the entry with atypical format of title was also removed. 
 
 - Stemming 
 
+Due to the volume of text within each entries and the length of the data, stemming was only performed within the title variable. 
+
+
 - Samplinng 
+
+For the purpose of evaluating models more rigorously, we created multiple test datasets. To do so, among the 5000 randomly chosen samples, we assigned an index for each of the entries; for instance, the index of the first 1000 entries was 0, and the index of the following 1000 entries was 1. Then, after indexing the data, entries with the same index were grouped. In our model, index 0 refers to the training dataset and indices 1, 2, 3, and 4 refer to testing sets 1, 2, 3, and 4 respectively. 
 
 ### Models
 
