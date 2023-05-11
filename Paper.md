@@ -13,7 +13,14 @@
 ### Preprocessing
 
 - Language Detection to remove non-English news 
+
+Our dataset included news written in language other than English. Considering the volume of the dataset and ease in the stemming, we removed all the dataset written in non-English by using language detection from langdetect. 
+
+- Removing entries with NA
+
+
 - Stemming 
+
 - Samplinng 
 
 ### Models
