@@ -51,6 +51,10 @@ K Nearest Neighbours (KNN) is a non-parametric classification algorithm with sim
 
 
 
+#### Random Forest
+
+
+
 ## Benchmark Algorithms.
 
 
