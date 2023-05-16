@@ -44,7 +44,7 @@ Our dataset included news written in a language other than English. Considering 
 
 - Removing entries with NA
 
-After performing the language detection, all the entries with at least one missing value were removed. At this stage, the entry with atypical format of title was also removed. 
+After performing the language detection, all the entries with at least one missing value were removed. 
 
 - Stemming 
 
