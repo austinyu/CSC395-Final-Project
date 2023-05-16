@@ -4,6 +4,19 @@ Table of Content
 
 
 
+TODOs
+
+- Result discussion 
+- Results comparison 
+- Discussion section 
+- Reference 
+
+
+
+
+
+
+
 > Abstract:
 >
 > The widespread dissemination of fake news has become a significant concern in the digital age, necessitating the development of effective machine learning techniques for its detection. This paper presents a comprehensive comparative analysis of various machine learning models applied to a fake news detection dataset. The dataset consists of labeled news articles, and popular algorithms such as decision trees, support vector machines, random forests, logistic regression, and neural networks are evaluated. Performance metrics including accuracy, precision, recall, and F1 score are employed to assess model performance, with a focus on handling imbalanced classes. The findings of this study offer insights into the strengths and limitations of different approaches, aiding researchers and practitioners in identifying effective models for combating fake news dissemination. This research contributes to advancing the field of misinformation detection and serves as a foundation for future developments in this critical area.
