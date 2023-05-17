@@ -1,22 +1,3 @@
-Table of Content
-
-[TOC]
-
-
-
-TODOs
-
-- Result discussion 
-- Results comparison 
-- Discussion section 
-- Reference 
-
-
-
-
-
-
-
 > Abstract:
 >
 > The widespread dissemination of fake news has become a significant concern in the digital age, necessitating the development of effective machine learning techniques for its detection. This paper presents a comprehensive comparative analysis of various machine learning models applied to a fake news detection dataset. The dataset consists of labeled news articles, and popular algorithms such as decision trees, support vector machines, random forests, logistic regression, and neural networks are evaluated. Performance metrics including accuracy, precision, recall, and F1 score are employed to assess model performance, with a focus on handling imbalanced classes. The findings of this study offer insights into the strengths and limitations of different approaches, aiding researchers and practitioners in identifying effective models for combating fake news dissemination. This research contributes to advancing the field of misinformation detection and serves as a foundation for future developments in this critical area.
@@ -226,13 +207,15 @@ Table 4 shows the f1-score achieved by each model on the four test sets. Once ag
 
 > Table 4: f1-score on the 4 datasets. 
 
-
-
-
-
 ## Discussion
 
+Preprocessing plays a crucial role in NLP machine learning problems, including fake news detection. During text feature extraction, a considerable number of features can be generated, which subsequently increases the computational burden during model training, testing, and evaluation. However, techniques like stemming can be employed to mitigate this issue by reducing the number of unnecessary features. By implementing preprocessing methods effectively, the efficiency and performance of the models can be improved, enabling more accurate fake news detection.
 
+The performance of the different models in our study exhibited remarkable similarities across various evaluation metrics. Whether considering accuracy, precision, recall, or F1 score, the models consistently demonstrated comparable performance. This finding suggests that each model was effective in detecting fake news to a similar degree. Consequently, the choice of model can be based on factors such as model complexity, computational resources, and interpretability, rather than solely relying on variations in performance metrics.
+
+A notable observation from our analysis is that the precision of all models surpassed the recall for fake news detection. Precision measures the proportion of correctly classified fake news instances among all predicted fake news, while recall measures the proportion of correctly classified fake news instances among all actual fake news. The higher precision and lower recall values indicate a greater emphasis on minimizing false positives (i.e., misclassifying real news as fake) at the expense of potentially missing some actual fake news. This finding highlights the challenge of maintaining a balance between precision and recall in fake news detection models.
+
+Accuracy, a commonly used evaluation metric, provides an overall measure of the correctness of a model's predictions. However, it can be misleading in imbalanced datasets, such as in fake news detection, where the number of fake news instances is significantly smaller than real news instances. In our study, we also utilized the F1 score, which considers both precision and recall. The similarity observed between accuracy and the F1 score indicates consistent model performance across these metrics. By considering false positives and false negatives, the F1 score provides a more balanced evaluation of the models' effectiveness in fake news detection.
 
 ## References
 
