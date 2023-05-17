@@ -188,33 +188,39 @@ $$
 \text{F1} = 2 \frac{\text{Precision}\times \text{Recall}}{\text{Precision}+ \text{Recall}}
 $$
 
-## Results and Discussion
+## Results
 
+### Overall Results
+
+Figure 5 displaces the overall results of our models, showing the average value of the four metrics of each model on the four test sets.Generally speaking, all seven models perform well in decting fake news and categorizing them with a rather high accuracy. However, it is worth noting that the KNN classifier seems to perform the worst in our data sets, with the lowest accuracy, f1-score, and recall. Although the average recall across the test sets for KNN classifier is 0.65, which is not unacceptablly low, this still suggests that the KNN classifier is identifying a substantially higher number of false negatives when comparing with the other models. Besides that, AdaBoost model and Voting classifier seem to outperform the others, as their precision are among the highest while maintaining a roughly similar high level of accuracy, fl-score, and recall.
 
 
 ![image-20230515141333635](Paper.assets/image-20230515141333635.png)
 
 > Figure 5: Accuracy, precision, recall, and F1-score over all datasets.
 
+### Result Comparison
 
+Table 1 shows the precision achieved by each model on the four test sets.KNN classifier can be immediately identified as the underperforming model, as its accuracies are under 80% across all four test sets. The other six models have a very close performance, with the mean centered at a 90% mark.
 
 ![image-20230515141706674](Paper.assets/image-20230515141706674.png)
 
 > Table 1: Accuracy on the 4 datasets.
 
+Table 2 shows the accuracy achieved by each model on the four test sets. We see that every model has achieved an average precision score higher than 95%. This indicates that all of our seven models are extremely accurate of positive predictions. KNN classifier achieved the highest average accuracy across the test sets, followed by AdaBoost classifier.
 
 
 ![image-20230515141738716](Paper.assets/image-20230515141738716.png)
 
 > Table 2: Precision on the 4 datasets.
 
-
+Table 3 shows the recall achieved by each model on the four test sets. Again, KNN classifier is  identified as the underperforming model, as its recall are under 0.70 across all four test sets. The other six models have a very close performance around 0.8 average recall, but Stacked classifier managed to achieve the highest average testing recall.
 
 ![image-20230515141804490](Paper.assets/image-20230515141804490.png)
 
 > Table 3: Recall on the 4 datasets.
 
-
+Table 4 shows the f1-score achieved by each model on the four test sets. Once again, KNN classifier has the worst performance, non of its f1-score surpasses 0.8. The other six models have a very close performance, with the mean f1-score centered at around 0.9.
 
 ![image-20230515141839295](Paper.assets/image-20230515141839295.png)
 
@@ -229,3 +235,5 @@ $$
 
 
 ## References
+
+Ahmad, I., Yousaf, M., Yousaf, S., & Ahmad, M. O. (2020). Fake news detection using machine learning ensemble methods. Complexity, 2020, 1-11.
