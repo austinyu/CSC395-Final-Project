@@ -201,26 +201,26 @@ Figure 5 displaces the overall results of our models, showing the average value 
 
 ### Result Comparison
 
-Table 1 shows the precision achieved by each model on the four test sets.KNN classifier can be immediately identified as the underperforming model, as its accuracies are under 80% across all four test sets. The other six models have a very close performance, with the mean centered at a 90% mark.
+Table 1 shows the precision achieved by each model on the four test sets.KNN classifier can be immediately identified as the underperforming model, as its accuracies are under 80% across all four test sets. The other six models have very close performances, with the mean centered at a 90% mark.
 
 ![image-20230515141706674](Paper.assets/image-20230515141706674.png)
 
 > Table 1: Accuracy on the 4 datasets.
 
-Table 2 shows the accuracy achieved by each model on the four test sets. We see that every model has achieved an average precision score higher than 95%. This indicates that all of our seven models are extremely accurate of positive predictions. KNN classifier achieved the highest average accuracy across the test sets, followed by AdaBoost classifier.
+Table 2 shows the accuracy achieved by each model on the four test sets. We see that every model has achieved an average precision score higher than 95%. This indicates that all of our seven models are extremely accurate in positive predictions. The KNN classifier achieved the highest average accuracy across the test sets, followed by the AdaBoost classifier.
 
 
 ![image-20230515141738716](Paper.assets/image-20230515141738716.png)
 
 > Table 2: Precision on the 4 datasets.
 
-Table 3 shows the recall achieved by each model on the four test sets. Again, KNN classifier is  identified as the underperforming model, as its recall are under 0.70 across all four test sets. The other six models have a very close performance around 0.8 average recall, but Stacked classifier managed to achieve the highest average testing recall.
+Table 3 shows the recall achieved by each model on the four test sets. Again, the KNN classifier is identified as the underperforming model, as its corresponding values for recall are under 0.70 across all four test sets. The other six models have very close performances around 0.8 average recall, but the Stacked classifier managed to achieve the highest average testing recall.
 
 ![image-20230515141804490](Paper.assets/image-20230515141804490.png)
 
 > Table 3: Recall on the 4 datasets.
 
-Table 4 shows the f1-score achieved by each model on the four test sets. Once again, KNN classifier has the worst performance, non of its f1-score surpasses 0.8. The other six models have a very close performance, with the mean f1-score centered at around 0.9.
+Table 4 shows the f1-score achieved by each model on the four test sets. Once again, the KNN classifier has the worst performance, non of its f1-score surpasses 0.8. The other six models have very close performances, with the mean f1-score centered at around 0.9.
 
 ![image-20230515141839295](Paper.assets/image-20230515141839295.png)
 
