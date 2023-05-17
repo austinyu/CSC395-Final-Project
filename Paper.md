@@ -4,6 +4,14 @@
 >
 > *Keywords:* fake news, machine learning, comparative analysis, performance evaluation, classification models, dataset, decision trees, support vector machines, random forests, logistic regression, neural networks, accuracy, precision, recall, F1 score, imbalanced classes, misinformation detection, model comparison.
 
+
+
+# Fake News Detection Using Machine Learning Methods
+
+
+
+Github Repo: https://github.com/austinyu/STA395-Final-Project
+
 ## Introduction
 
 The proliferation of misinformation and fake news has become a critical issue in today's digital era. The spread of deceptive information poses significant challenges to individuals, organizations, and society as a whole. As a result, the development of effective techniques for fake news detection has gained considerable attention in the field of machine learning.
