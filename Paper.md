@@ -61,7 +61,7 @@ After performing the language detection, all the entries with at least one missi
 
 - Stemming 
 
-We implemented stemming to our dataset as it removes prefixes and suffixes from a word, and thus thereby reudces words to their root form. In our data preprocessing, Porter Stememr was employed, which reduces words like: "running" and "runs" to "run," and "runner" to "runner." By transforming words into a common base form, we are able to increase simplicity and decrease volume. Yet, due to the length of dataset and size of each entry, stemming was only performed within the title variable.
+We implemented stemming to our dataset as it removes prefixes and suffixes from a word, and thus thereby reudces words to their root form (Singh & Gupta, 2017, p.163-164). In our data preprocessing, Porter Stememr was employed, which reduces words like: "running" and "runs" to "run," and "runner" to "runner." By transforming words into a common base form, we are able to increase simplicity and decrease volume. Yet, due to the length of dataset and size of each entry, stemming was only performed within the title variable.
 
 
 - Sampling 
@@ -237,3 +237,5 @@ Table 4 shows the f1-score achieved by each model on the four test sets. Once ag
 ## References
 
 Ahmad, I., Yousaf, M., Yousaf, S., & Ahmad, M. O. (2020). Fake news detection using machine learning ensemble methods. Complexity, 2020, 1-11.
+
+Singh, J., Gupta, V. A systematic review of text stemming techniques. Artif Intell Rev 48, 157–217 (2017). https://doi.org/10.1007/s10462-016-9498-2.
